@@ -1,0 +1,419 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.front-page-container {
+    background-image: linear-gradient(270deg, #0000, #16284521 28%, #1e293b 75%);
+    height: 110vh;
+}
+
+.front-page-button {
+    color: white;
+    background-color: #2563eb;
+    width: 400px;
+    height: 44px;
+    border-radius: 10px;
+    padding: 12px, 24px;
+    font-family: sans-serif;
+    border-width: 0px;
+    font-weight: 500;
+}
+
+.trailer-button {
+    color: #fff;
+    line-height: inherit;
+    cursor: pointer;
+    background-color: transparent;
+    border-width: 1px;
+    border-color: white;
+    border-radius: 10px;
+    padding: 9px 15px;
+    width: 400px;
+    height: 44px;
+    text-decoration: none;
+    border-style: solid;
+}
+
+.colour-word {
+    color: #27fa1d;
+    font-weight: 500;
+    font-size: 32px;
+}
+
+.trending-button {
+    background-color: transparent;
+    border-radius: 12px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: white;
+    padding: 5px;
+    height: 50px;
+    width: 100px;
+    color: white;
+}
+
+.colour-word1 {
+    text-decoration: line-through;
+    text-decoration-color: #27fa1d;
+}
+
+.second-page-container {
+    background-color: #000017;
+    height: 60vh;
+}
+
+.second-page-heading-element {
+    text-align: center;
+    color: white;
+    font-size: 53px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 96px;
+    padding-bottom: 60px;
+}
+
+.collection-page-container {
+    height: 100%;
+    background-image: url('https://cdn.prod.website-files.com/64362e90abbff481a6d25ce8/64362e90abbff4b212d25fe3_A%20Rare%20Collection%20of%20Insider%20%20Knowledge%2C%20All%20Yours!%20(1).png');
+    background-position: 50%;
+    background-size: cover;
+    width: 100%;
+}
+
+.paragraph-element {
+    color: #cbd5e1;
+    text-align: center;
+    width: 100%;
+    font-family: Inter, sans-serif;
+    font-size: 18px;
+    line-height: 28px;
+}
+
+.second-page-heading-element1 {
+    text-align: center;
+    color: white;
+    font-size: 33px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 96px;
+    padding-bottom: 96px;
+}
+
+.image-size {
+    height: 20px;
+    width: 23px;
+}
+
+.scrollable-tabs-container {
+    font-family: roboto sans-serif;
+    background-color: transparent;
+    max-width: 100%;
+    margin: 16px auto;
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+.scrollable-tabs-container svg {
+    width: 24px;
+    height: 24px;
+    padding: 8px;
+    cursor: pointer;
+    color: #fff;
+    display: none;
+}
+
+.scrollable-tabs-container ul {
+    display: flex;
+    gap: 0px;
+    padding: 12px 24px;
+    margin: 0px;
+    overflow-x: scroll;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+
+}
+
+.scrollable-tabs-container ul::-webkit-scrollbar {
+    display: none;
+}
+
+.scrollable-tabs-container a {
+    color: white;
+    text-decoration: none;
+    background-color: transparent;
+    padding: 4px 24px;
+    display: inline-block;
+    border-radius: 4px;
+    user-select: none;
+    white-space: nowrap;
+}
+
+.scrollable-tabs-container a.active {
+    background-color: white;
+    color: black;
+}
+
+.heading1 {
+    color: white;
+    font-size: 20px;
+    font-family: Sans-Serif;
+    margin-top: 13px;
+    text-align: left;
+}
+
+.paragraph1 {
+    color: white;
+    font-size: 18px;
+    font-family: bree;
+}
+
+.img img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.wrapper i:last-child {
+    right: -22px;
+}
+
+.carousel .card {
+    height: 600px;
+    width: 400px;
+    list-style: none;
+    background-color: #3E4957;
+    border-radius: 8px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    padding-bottom: 15px;
+    scroll-snap-align: start;
+}
+
+.wrapper {
+    max-width: 11;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    padding: 0 35px;
+    background-color: transparent;
+}
+
+
+.carousel:where() {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.carousel ::-webkit-scrollbar {
+    display: none;
+}
+
+.wrapper i {
+    height: 50px;
+    width: 50px;
+    background: white;
+    text-align: center;
+    line-height: 50px;
+    border-radius: 50%;
+    cursor: pointer;
+    position: absolute;
+}
+
+.carousel::-webkit-scrollbar {
+    display: none;
+}
+
+.wrapper .carousel {
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: calc((100 / 3) - 12px);
+    gap: 16px;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+    scrollbar-width: 0;
+}
+
+.carousel .dragging {
+    scroll-behavior: auto;
+    scroll-snap-type: none;
+}
+
+.carousel.no-transition {
+    scroll-behavior: auto;
+}
+
+.carousel .dragging .card {
+    cursor: grab;
+    user-select: none;
+}
+
+@media screen and (max-width:990px) {
+    .wrapper .carousel {
+        grid-auto-columns: calc((100%/2)-9px);
+    }
+}
+
+@media screen and (max-width:990px) {
+    .wrapper .carousel {
+        grid-auto-columns: 100%;
+    }
+}
+
+.student-container {
+    background-color: #0f172a;
+    height: 70vh;
+}
+
+.swiper-background {
+    background-color: #0f172a;
+    height: auto;
+}
+
+.feedback-container {
+    background-color: #713f1230;
+    border: 1px solid #713f12;
+    border-radius: 33px;
+    margin-bottom: 48px;
+    padding: 8px 12px;
+    font-size: 20px;
+    line-height: 28px;
+    color: #f59e0b;
+    font-family: Inter, sans-serif;
+    font-weight: 500;
+}
+
+.smile-image {
+    width: 53px;
+    height: 50px;
+}
+
+.photo-size {
+    height: 70px;
+    width: 70px;
+    border-radius: 50px;
+}
+
+.span-colour {
+    color: blue;
+}
+
+.slider-wrapper1 {
+    overflow: hidden;
+    max-width: 1200px;
+    margin: 0 70px 55px;
+}
+
+.card-item1 {
+    background: rgba(255, 255, 255, 0.2);
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    height: 210px;
+    width: 350px;
+    border-radius: 12px;
+    padding: 10px;
+}
+
+.slider-wrapper1 .swiper-pagination-bullet {
+    background-color: white;
+    height: 15px;
+    width: 15px;
+}
+
+.slider-wrapper1 .swiper-slide-button {
+    color: white;
+    margin-top: -50px;
+    transition: 0.2s ease;
+}
+
+.slider-wrapper1 .swiper-slide-button:hover {
+    color: #4658ff;
+}
+
+@media(max-width:768px) {
+    .slider-wrapper1 {
+        margin: 0 10px 40px;
+    }
+
+    .slider-wrapper1 .swiper-slide-button {
+        display: none;
+    }
+}
+
+.fire-img {
+    width: 40px;
+    height: 50px;
+}
+
+.empower-container {
+    background-image: url("https://cdn.prod.website-files.com/64362e90abbff481a6d25ce8/64362e90abbff4e843d25fd4_NxtWave's%20Empowering%20Podcast%20Series%20%20to%20Shape%20your%20Dream%20Career.%20(1).png");
+    height: 100%;
+    background-size: cover;
+    width: 100%;
+
+}
+
+.container1 {
+    background-color: #0f172a;
+    font-family: 'poppins', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#from {
+    width: 300px;
+    margin: 20vh auto 0 auto;
+    padding: 20px;
+    background-color: transparent;
+    border-radius: 4px;
+    font-size: 12px;
+}
+
+#from button {
+    padding: 10px;
+    margin-top: 5px;
+    width: 100%;
+    color: transparent;
+    border: none;
+    border-radius: 4px;
+}
+
+
+
+.input-control input {
+    border: 2px solid #f0f0f0;
+    border-radius: 16px;
+    display: block;
+    font-size: 12px;
+    padding: 10px;
+    width: 400px;
+}
+
+.speaker-container {
+    background-image: url("https://cdn.prod.website-files.com/64362e90abbff481a6d25ce8/645345c7c2106e1bd1c65a6c_Background%20String.png");
+    background-size: cover;
+    height: 12vh;
+}
+
+.quick1 {
+    list-style-type: none;
+}
+
+.hr-line {
+    background-color: white;
+}
+
+.final-section {
+    color: #5a7184;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    transition: opacity .2s;
+}
+
+.reachus-container {
+    background-color: #0f172a;
+}
