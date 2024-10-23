@@ -265,7 +265,7 @@
 
 .student-container {
     background-color: #0f172a;
-    height: 70vh;
+    height: 100%;
 }
 
 .swiper-background {
@@ -396,6 +396,7 @@
     background-image: url("https://cdn.prod.website-files.com/64362e90abbff481a6d25ce8/645345c7c2106e1bd1c65a6c_Background%20String.png");
     background-size: cover;
     height: 12vh;
+    width: 100%;
 }
 
 .quick1 {
