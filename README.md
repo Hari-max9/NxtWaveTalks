@@ -1,0 +1,1 @@
+SkillCast is a responsive web application designed to organize and showcase technical learning content in a structured and user-friendly way. It helps users easily browse, explore, and access learning resources through an interactive interface.
